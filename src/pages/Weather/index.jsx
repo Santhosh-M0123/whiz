@@ -125,7 +125,6 @@ const WeatherPage = () => {
               />
             </div>
             <div className="forecast-graph-analysis">
-              {/* {graphData.length > 0 && <LineGraph data={graphData} />} */}
               {graphData.length > 0 && <AreaGraph data={graphData} />}
             </div>
             <div className="hourly_forecast">

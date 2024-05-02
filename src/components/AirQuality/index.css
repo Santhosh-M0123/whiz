@@ -1,0 +1,29 @@
+.air-quality-card-container{
+    width: 100%;
+    /* background-color: rgb(225, 223, 223); */
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: auto;
+    padding: 20px;
+    /* margin-top: 50px; */
+}
+.air-quality-report-card{
+    background-color: white;
+    padding: 20px 20px;
+    /* width: 100px; */
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.air-quality-report-card-area{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 10px;
+    margin-top: 10px;
+}
+.air-quality-title b{
+    letter-spacing: 1px;
+}

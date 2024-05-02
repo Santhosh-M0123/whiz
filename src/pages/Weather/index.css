@@ -1,0 +1,89 @@
+.weather-page-main-layout{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    height: auto;
+    padding: 100px 30px;
+    flex-wrap: wrap-reverse;
+    /* background: url("../../assests//images/bg.jpg"); */
+    background-color: rgb(243, 240, 240);
+}
+.weather-layout-left{
+    flex-basis: 65%;
+    /* background-color: yellow; */
+    padding: 20px 15px;
+}
+.weather-layout-right{
+    flex-basis: 35%;
+    /* background-color: gray; */
+}
+.icon-greeting{
+    font-size: 40px;
+}
+.greeting-slot{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px;
+    border-bottom: 1px solid gray;
+}
+.greeting-slot b{
+    font-size: 20px;
+    color: rgb(63, 130, 223);
+}
+.time-day-slot{
+    padding: 10px 0px;
+    width: 100%;
+    /* border-bottom: 1px solid gray; */
+}
+.time-day-slot h1{
+    font-size: 50px;
+}
+.time-day-slot span{
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: gray;
+}
+.forcast-report{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.current-weather-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.air-quality-astro-report-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.air-quality-astro-report-section{
+    margin-top: 50px;
+}
+.forecast-graph-analysis{
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.weather-loader{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.astro-container-right,.air-quality-container-right{
+    padding: 20px 45px;
+}
+/* .forecast-graph-analysis{
+    width: 400px;
+    height: auto;
+} */

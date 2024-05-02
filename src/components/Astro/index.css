@@ -1,0 +1,92 @@
+.astro-card-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(82, 118, 194);
+    padding: 30px 20px;
+    color: white;
+    border-radius: 10px;
+}
+.dropdown-day .dropdown{
+    position: relative;
+    width: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    cursor: pointer;
+    color: black;
+}
+.astro-top-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.astro_report{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.astro-card-sunrise , .astro-card-sunset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.astro_report{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.astro-icon{
+    font-size: 50px;
+    color: gold;
+}
+.astro-time b{
+    font-size: 25px;
+}
+.astro-time span{
+    font-size: 15px;
+}
+.dropdown-day{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 30px;
+}.dropdown_hidden_lists{
+    position: absolute;
+    /* color: red; */
+    top: 25px;
+    width: 80px;
+    height: 100px;
+    overflow: scroll;
+    background-color: gray;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px 0px;
+    /* border: 1px solid gray; */
+    /* left: 0; */
+}
+.in-active{
+    height: 0px;
+    display: none;
+    transition: 1s;
+}
+.active{
+    height: auto;
+    display: block;
+    transition: 1s;
+}
+.list-day{
+    width: 100%;
+    /* background-color: red */
+    padding: 5px 0px;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+    cursor: pointer;
+}

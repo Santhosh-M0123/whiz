@@ -1,0 +1,54 @@
+.hour-forecast-card-list{
+    width: 140px;
+    height: auto;
+    padding: 20px 20px;
+    /* background-color: rgba(255, 99, 132, 1); */
+    color: white;
+    /* background-color: rgb(243, 243, 241); */
+    background-color: rgb(43, 40, 40);
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+.hour-forecast-card-list:hover{
+    background-color: rgba(255, 99, 132, 1);
+    border: 1px solid rgba(255, 99, 132, 1);
+    color: white;
+}
+
+.hour-forecast-icon img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.hour-forecast-condition{
+    font-size: 20px;
+}
+.hour-forecast-temp{
+    font-size: 19px;
+}
+.hour-forecast-card-container{
+    width: 800px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    cursor: grab;
+    padding: 0px 10px;
+}
+.hour-forecast-card-container::-webkit-scrollbar{
+    display: none;
+}
